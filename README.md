@@ -1,4 +1,4 @@
-# Job-Market-Analysis-Dashboard-Power-BI-
+# Job Market Analysis Dashboard Power BI
 A detailed Power BI dashboard analyzing job market data based on various parameters like job category, experience level, company size, employment type, and more.
 
 🔍 **Project Objective**
@@ -23,7 +23,7 @@ Excel (for data cleaning/preparation)
 
 📁 Project Files
 
-Job_Market_Dashboard.pbix → Main Power BI file
+Job_Market_Dashboard.pbix → [Main Power BI file](https://drive.google.com/file/d/15BIjh0RTHBclFXYlEn33QEWGB4E1g3jk/view?usp=drive_link)
 
 Job_Data.csv → [Click here to view the dataset](https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025)
 
@@ -79,7 +79,7 @@ Job level breakdown
 
 🗂️ How to Use
 
-Download the .pbix file.
+[Download the .pbix file.](https://drive.google.com/file/d/15BIjh0RTHBclFXYlEn33QEWGB4E1g3jk/view?usp=drive_link)
 
 Open it in Power BI Desktop.
 
@@ -87,7 +87,7 @@ Use the filters to interact with different visuals.
 
 Hover over visuals to see the tooltip insights.
 
-🌐 Shareable Link
+🌐 Shareable Link -> (https://drive.google.com/file/d/15BIjh0RTHBclFXYlEn33QEWGB4E1g3jk/view?usp=drive_link)
 
 (Due to Power BI restrictions on personal accounts, the dashboard is available as screenshots and a .pbix file. Contact for walkthrough video.)
 
