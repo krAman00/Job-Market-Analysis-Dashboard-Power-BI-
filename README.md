@@ -1,81 +1,109 @@
-# Job Market Analysis Dashboard Power BI
+# Global AI Job Market & Salary Trends — Power BI Dashboard
 A detailed Power BI dashboard analyzing job market data based on various parameters like job category, experience level, company size, employment type, and more.
+
+**🔍 What this project answers**
+
+ - What is the average/median salary across roles and experience levels?
+
+ - How do company sizes differ in pay and job volume?
+
+ - What share of jobs fall into salary brackets (<60K, 60–100K, 100K+)?
+
+ - How are remote vs on‑site jobs evolving?
+
+ - Which skills and job titles are most in‑demand and best paid?
 
 🔍 **Project Objective**
 
-To analyze the latest job trends using an interactive dashboard, helping users explore:
+ - To analyze the latest job trends using an interactive dashboard, helping users explore:
 
-Top job categories by demand
+ - Top job categories by demand
 
-Job distribution across industries
+ - Job distribution across industries
 
-Experience-level insights
+  - Experience-level insights
 
-Salary patterns by company size and type
+ - Salary patterns by company size and type
 
-Filter-based exploration (e.g., employment type, job level)
+ - Filter-based exploration (e.g., employment type, job level)
+
+**🧰 Tech & Skills demonstrated**
+
+ - Power BI Desktop (data modeling, visuals, theming)
+
+ - Power Query (cleaning, normalization, splitting skills, unpivoting)
+
+ - DAX (measures for Avg/Median/StdDev/Brackets, time intelligence)
+
+ - UX features: custom tooltip page, slicer panel, Reset Filters bookmark/button, consistent titles & layout grid.
 
 🧰 **Tools Used**
 
-Power BI (for data modeling, visualization, DAX calculations)
+ - Power BI (for data modeling, visualization, DAX calculations)
 
-Excel (for data cleaning/preparation)
+ - Excel (for data cleaning/preparation)
 
 📁 Project Files
 
-Job_Market_Dashboard.pbix → [Main Power BI file](https://drive.google.com/file/d/15BIjh0RTHBclFXYlEn33QEWGB4E1g3jk/view?usp=drive_link)
+ - Job_Market_Dashboard.pbix → [Main Power BI file](https://drive.google.com/file/d/15BIjh0RTHBclFXYlEn33QEWGB4E1g3jk/view?usp=drive_link)
 
-Job_Data.csv → [Click here to view the dataset](https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025)
+- Job_Data.csv → [Click here to view the dataset](https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025)
 
 <img width="1300" height="724" alt="Image" src="https://github.com/user-attachments/assets/92fa19f6-590b-427c-8a49-3c959f3174b9" />
 
+**📐 Key DAX measures (excerpt)**
+
+ - Avg Salary = AVERAGE(main_dataset[salary_usd])
+
+ - Median Salary = MEDIAN(main_dataset[salary_usd])
+
+ - Max Salary = MAX(main_dataset[salary_usd])
+
+ - Min Salary = MIN(main_dataset[salary_usd])
+
+ - Job Count = DISTINCTCOUNT(main_dataset[job_id])
+
+ - Salary StdDev = STDEV.P(main_dataset[salary_usd])
+
+ - Posting Month = FORMAT(MAX(main_dataset[posting_date]), "MMM yyyy")
+
 📊 **Dashboard Highlights**
 
-1. Overview Metrics
+**KPIs**
 
-Total Jobs Analyzed
+Maximum Salary, Minimum Salary, Total Jobs, Average Salary (all slicer‑aware)
 
-Total Companies
+**Visuals**
 
-Avg. Salary by Experience Level
+ - Avg Salary by Experience Level (bar)
 
-2. Key Visuals
+ - Average Salary by Company Size (column)
 
-Bar Chart: Top 10 Job Categories by Share (used as tooltip in multiple visuals)
+ - Salary Brackets share (donut/pie)
 
-Pie Chart: Company Size Distribution
+ - Top 5 Jobs by Avg Salary (column)
 
-Line Chart: Job Trend Over Time
+ - Job Count by Employment Type (line/area)
 
-Donut Chart: Employment Type Share
+ - Count of Jobs by Month with Remote Type (multi‑line)
 
-Stacked Bar: Salary Ranges by Experience
+ - Company Location table with job counts
 
-3. Interactive Filters (Slicers)
+ - Skills table with average salary
 
-Grouped under "Filter by:" section
+**Filters (slicers)**
 
-Job Category
+ - Mode of Work (Fully remote / Hybrid / No remote)
 
-Experience Level
+ - Experience Level (Entry / Senior / Executive)
 
-Industry
+ - Job Industry
 
-Company Type
+**Interactions**
 
-Employment Type
+ - Reset button (Bookmark) to clear all slicers to defaults
 
-All filters are enclosed within a light background container for visual clarity.
-
-4. Tooltip Enhancements
-
-Custom tooltip shows:
-
-Top 10 job categories (by count or share)
-
-Avg. salary for the hovered segment
-
-Job level breakdown
+ - Custom Tooltip on key visuals (e.g., salary trend by company size, or top job titles within the hovered segment)
 
 🗂️ How to Use
 
@@ -89,7 +117,7 @@ Hover over visuals to see the tooltip insights.
 
 🌐 Shareable Link -> (https://drive.google.com/file/d/15BIjh0RTHBclFXYlEn33QEWGB4E1g3jk/view?usp=drive_link)
 
-(Due to Power BI restrictions on personal accounts, the dashboard is available as screenshots and a .pbix file. Contact for walkthrough video.)
+(Due to Power BI restrictions on personal accounts, the dashboard is available as screenshots and a .pbix file.)
 
 🤝 Connect with Me
 
