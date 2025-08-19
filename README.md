@@ -115,8 +115,6 @@ Use the filters to interact with different visuals.
 
 Hover over visuals to see the tooltip insights.
 
-🌐 Shareable Link -> (https://drive.google.com/file/d/15BIjh0RTHBclFXYlEn33QEWGB4E1g3jk/view?usp=drive_link)
-
 (Due to Power BI restrictions on personal accounts, the dashboard is available as screenshots and a .pbix file.)
 
 🤝 Connect with Me
