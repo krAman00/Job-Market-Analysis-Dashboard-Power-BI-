@@ -45,7 +45,7 @@ A detailed Power BI dashboard analyzing job market data based on various paramet
 
 📁 Project Files
 
- - Job_Market_Dashboard.pbix → [Main Power BI file](https://drive.google.com/file/d/15BIjh0RTHBclFXYlEn33QEWGB4E1g3jk/view?usp=drive_link)
+ - Job_Market_Dashboard.pbix → [Main Power BI file](https://drive.google.com/file/d/14bmnN0IfTsuwV2IoSgaKw732_6hKETuN/view?usp=drive_link)
 
 - Job_Data.csv → [Click here to view the dataset](https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025)
 
@@ -107,7 +107,7 @@ Maximum Salary, Minimum Salary, Total Jobs, Average Salary (all slicer‑aware)
 
 🗂️ How to Use
 
-[Download the .pbix file.](https://drive.google.com/file/d/15BIjh0RTHBclFXYlEn33QEWGB4E1g3jk/view?usp=drive_link)
+[Download the .pbix file.](https://drive.google.com/file/d/14bmnN0IfTsuwV2IoSgaKw732_6hKETuN/view?usp=drive_link)
 
 Open it in Power BI Desktop.
 
